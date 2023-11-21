@@ -17,8 +17,8 @@ body {
 button {
   background-color: #fdfdfd;
   color: #111;
-  border: 1px solid #34644c;
-  border-radius: 5px;
+  border: 1px solid #4e9973;
+  border-radius: 3px;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -31,6 +31,7 @@ button {
 button:hover {
   background-color: #34644c;
   color: #fff;
+  border: 1px solid #34644c;
 }
 
 button:hover > i {
@@ -59,7 +60,7 @@ select {
   background-color: #fdfdfd84;
   backdrop-filter: blur(5px);
   padding: 1.5rem;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .todo-container header {
@@ -90,7 +91,7 @@ select {
 input,
 select {
   margin-right: 0.3rem;
-  border-radius: 5px;
+  border-radius: 3px;
   border: none;
 }
 
@@ -157,7 +158,10 @@ select {
 }
 
 .done {
-  background-color: #395269;
+  background-color: #458867;
+  border: none;
+  border-radius: 3px;
+  margin-top: 0.5rem;
 }
 
 .done h3 {
